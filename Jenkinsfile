@@ -16,7 +16,7 @@ node
   {
         sh """
         echo GENERATE_REPORTS is set to $GENERATE_REPORTS
-          chmod +x ./BankAppln.java
-         bash -e ./BankAppln.java
+          chmod +x ./Banktest.java
+         bash -e ./Banktest.java
 }
 }
