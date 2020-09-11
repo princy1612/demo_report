@@ -1,3 +1,3 @@
 // run the program
-javac BankAppln.java
-java BankAppln
+bat 'javac BankAppln.java'
+bat 'java BankAppln'
