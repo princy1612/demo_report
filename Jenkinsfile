@@ -4,7 +4,7 @@
 import groovy.json.*
 
 
-def SERVICE_NAME = 'madelyn-test'
+def SERVICE_NAME = 'BankAppln.test'
 def BRANCH_NAME = "${env.BRANCH_NAME}".replaceFirst(/^release\//){''}
 def TAG = "${BRANCH_NAME}_${env.BUILD_NUMBER}"
 def IMAGE_NAME = "${SERVICE_NAME}:${TAG}-E2E"
